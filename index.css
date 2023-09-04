@@ -1,0 +1,229 @@
+body {
+    background-color: #eaf0f7;
+}
+
+.navb {
+    padding-top: 15px;
+    width: 100%;
+    background-color: #1a253f;
+    height: 62.5px;
+
+}
+
+.nav-content {
+
+    margin-left: 7%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+
+.main-content {
+    margin: 1% 7%;
+    background-color: #ffffff;
+}
+
+.main-content h4 {
+    font-size: x-large;
+    padding-left: 3%;
+}
+
+
+
+
+.card-top {
+    display: flex;
+    height: 190px;
+    background-color: #1a253f;
+}
+
+.card-top p {
+    font-size: small;
+    color: #ffffff;
+}
+
+.c1 {
+    margin-top: 1%;
+    flex: 2;
+}
+
+.c2 {
+    flex: 1;
+    margin-top:1%;
+    padding-right: 10%;
+    text-align: end;
+}
+
+.card-top img {
+    margin-top: 2%;
+    margin-left: 5%;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.name {
+    
+    font-weight: bold;
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.ah {
+    font-weight: bold;
+    margin-left: 3%;
+    color: #ffffff;
+}
+
+
+
+.c1 p {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3%;
+    color: #ffffff;
+}
+
+#printcv {
+    margin: 1% 5%;
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: rgba(77, 121, 246, 0.1);
+    color: #4d79f6;
+    border: none;
+}
+
+
+#printcv:hover {
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: #4d79f6;
+    color: #000;
+    border: none;
+}
+
+.eskills {
+    padding: 1% 5%;
+    width:100%;
+}
+
+.heade {
+    color: #50649c;
+}
+.edu div {
+    padding-left: 5%;
+    border-left: blue dashed 0.5px;
+}
+
+.skills div {
+    padding-left: 5%;
+    border-left: blue dashed 0.5px;
+}
+
+.eduyear {
+    color: #50649c;
+    text-decoration: underline;
+
+}
+
+.educlass {
+    color: #1a253f;
+    font-weight: bold;
+}
+
+.eduuni {
+    color: #50649c;
+    font-style: oblique;
+
+}
+
+.alignedu {
+    display: flex;
+}
+
+.contact-me {
+    display: flex;
+}
+
+.contact-details p {
+    padding-left: 5%;
+}
+
+.contact-bold {
+    font-weight: bold;
+}
+
+.contact-i {
+    font-style: italic;
+}
+
+
+footer {
+    font-size: 14px;
+    color: #50649c;
+    padding-top: 15px;
+    height: 55px;
+    text-align: center;
+    background-color: #d9ecec;
+    line-height: 1.6;
+
+}
+
+
+@media only screen and (max-width: 350px) and (min-width:0px) {
+    .eskills {
+        display: contents;
+
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    #printcv {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 350px) {
+    .eskills {
+        display: contents;
+
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    #printcv {
+        width: 21%;
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 350px) {
+
+    .card-top p{
+        font-size: small;
+    }
+
+
+    .eskills {
+        display: contents;
+
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    #printcv {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 700px) {}
